@@ -1,4 +1,4 @@
-const render = ({companies, productMap, companyList, curr}) => {
+const render = ( {companies, productMap, companyList, curr}) => {
 	const html = `
 		${ companies.map((company, idx) =>`
 			<p><strong>${idx+1}</strong></p>
