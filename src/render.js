@@ -10,10 +10,12 @@ const render = ( {companies, productMap, companyList, curr}) => {
 							productMap[company].map(product => `
 							<p>
 								- ${ product }
+								
 							</p>
 							`
 							).join('')
 						}
+					
 					</ul>
 					` : ''
 				}
